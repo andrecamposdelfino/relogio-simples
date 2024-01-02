@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(46, 46, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container .relogio {
+    width: 210px;
+    height: 210px;
+    border-radius: 100px;
+    background-color: rgb(46, 46, 77);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container .relogio .border-relogio{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background-color: rgb(37, 37, 58);
+    box-shadow: 5px 5px 10px 5px rgba(247, 245, 245, 0.151);
+    border: 6px solid #db6143;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.container .relogio .border-relogio h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.container .relogio .border-relogio p{
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+
+.container .relogio .border-relogio span{
+    font-size: 1rem;
+    color: white;
+}
+
+.box-button {
+    width: 320px;
+    height: 60px;
+    background-color: rgb(32, 34, 56);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.box-button .orange{
+    width: 100px;
+    height: 50px;
+    background-color: #db6143;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.box-button .green{
+    width: 100px;
+    height: 50px;
+    background-color: #4fab21;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.box-button .white{
+    width: 100px;
+    height: 50px;
+    background-color: #fdfdfd;
+    border-radius: 50px;
+    border: none;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+}
+
+.container .relogio  .border-green{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background-color: rgb(37, 37, 58);
+    box-shadow: 5px 5px 10px 5px rgba(247, 245, 245, 0.151);
+    border: 6px solid #4fab21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.container .relogio .border-green h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.container .relogio .border-green p{
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+
+.container .relogio .border-green span{
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+.container .relogio  .border-white{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background-color: rgb(37, 37, 58);
+    box-shadow: 5px 5px 10px 5px rgba(247, 245, 245, 0.151);
+    border: 6px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.container .relogio .border-white h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.container .relogio .border-white p{
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+
+.container .relogio .border-white span{
+    font-size: 1rem;
+    color: white;
+}
